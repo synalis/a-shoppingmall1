@@ -1,0 +1,145 @@
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.nav {
+    overflow: hidden;
+}
+.sk_list {
+    float: left;
+}
+.sk_con {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    padding: 0 30px;
+}
+.sk_con ul li{
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 20px;
+}
+.sk_con ul li:last-child a:after {
+    font-family: 'icomoon';
+    content: '\e911';
+}
+
+/*盒子*/
+.sk_bd ul li {
+    float: left;
+    width: 234px;
+    height: 366px;
+    padding: 22px 20px 0;
+    margin-right: 6px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.tupian img {
+    width: 194px;
+    height: 198px;
+    background-color: skyblue;
+}
+
+h5 {
+    font-size: 14px;
+    color: #9b9b9b;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.pirce {
+    height: 25px;
+    padding: 6px 0 0;
+}
+
+.pirce span:nth-child(1) {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fd3f31;
+}
+
+.pirce span:nth-child(2) {
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: line-through;
+    color: #9b9b9b;
+    margin-left: 5px;
+}
+
+.yishou {
+    height: 18px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.yishou span {
+    float: left;
+    font-size: 10px;
+}
+
+.bar {
+    float: left;
+    height: 17px;
+    width: 100px;
+    background-color: #FFB4B1;
+    border-radius: 17px;
+    margin: 0 3px;
+}
+
+.bar-in {
+    width: 87%;
+    height: 17px;
+    background-color: red;
+    border-radius: 17px;
+}
+
+.yishou span:nth-of-type(2n) {
+    color: red;
+}
+button {
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: 0;
+}
